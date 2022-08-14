@@ -10,19 +10,31 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+    body { width: 1440px; background-color: hsl(212, 45%, 89%); }
+    .card { margin: auto; margin-top: 5%; padding: 10px 0; width: 320px; background-color: hsl(0, 0%, 100%); box-sizing: border-box; border-radius: 5%; box-shadow: -5px 5px 10px gray; }
+    .image { display: block; width: 300px; height: 300px; margin: auto; border-radius: 5%; }
+    .description { padding: 0 10px; }
+    p { font-family: 'Outfit'; font-size: 15px; text-align: center; }
+    .first { font-weight: bold; }
+    p .attribution { font-size: 11px; text-align: center; }
+    p .attribution a { color: hsl(228, 45%, 44%); }
+    footer { margin-top: 50px; }
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
+    <div class="card">
+        <img class="image" src="images/image-qr-code.png" alt="qr-code">
+    <div class="description">
+      <p class="first">Improve your front-end skills by building projects</p>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level<p>
+    </div>
+    </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+    <p class="attribution">Coded by <a href="https://github.com/tiarutama">tiarutama</a>.</p>
+  </footer>
 </body>
 </html>
